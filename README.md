@@ -10,7 +10,11 @@
 - Записывать данные в базу данных - Postgres
 - Интерфейс опционально
 
-- ```
+  ```
   подразумевалось, что postgres уже стоит, в докер не стал класть т.к не было требований
   ```
-  
+  # Usage
+  ```
+  pip install psycopg2-binary paramiko flask
+  python3 web_interface.py
+  ```
